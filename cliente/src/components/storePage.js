@@ -1,6 +1,6 @@
 import Header from "./headerComponent"
 import styles from '../css/store.module.css'
-import {Link} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import {useState} from "react";
 
 import heroMain from '../img/hero/heroMain.jpg'
@@ -11,15 +11,16 @@ import hero4 from '../img/hero/hero4.jpg'
 
 export default function StorePage() {
     const [query, setQuery] = useState("")
+    const navigate = useNavigate();
 
     const updateQuery = (event) => {
         setQuery(event.target.value)
     }
 
-    const searchQuery = async (e) => {
-        e.preventDefault()
-        console.log('Search: ', query)
-    }
+    const searchQuery = (e) => {
+        e.preventDefault();
+        navigate(`/search?query=${query}&page=1`);
+    };
 
     return (
         <main>

@@ -3,6 +3,7 @@ import styles from '../css/loginRegister.module.css'
 import {Link, useNavigate} from "react-router-dom"
 import {useState} from "react"
 import axios from "axios"
+import {API_URL} from "../config";
 
 export default function LoginPage() {
     const navigate = useNavigate()
@@ -25,7 +26,7 @@ export default function LoginPage() {
         e.preventDefault()
         try {
             setButtonDisabled(true)
-            const url = 'https://gamestation-backend.onrender.com/login'
+            const url = `${API_URL}/login`
             const response = await axios.post(url, {
                 ...data,
                 username: data.username.toLowerCase()

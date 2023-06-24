@@ -3,6 +3,10 @@ import styles from '../css/header.module.css'
 import {Link} from "react-router-dom";
 
 export default function Header() {
+    const logOut = () => {
+        localStorage.removeItem('user')
+    }
+
     return (
         <main className={styles.headerContainer}>
             <div className={styles.headerContent}>
@@ -13,8 +17,9 @@ export default function Header() {
                     <li><Link to='/about'>ACERCA DE</Link></li>
                     {!localStorage.getItem('user') && <li><Link to='/login'>INICIAR</Link></li>}
                     {localStorage.getItem('user') && <li><Link to='/profile'>PERFIL</Link></li>}
+                    {localStorage.getItem('user') && <li><Link to={'/'} onClick={logOut}>SALIR</Link></li>}
                 </ul>
             </div>
         </main>
-)
+    )
 }

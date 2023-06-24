@@ -1,0 +1,92 @@
+.searchContainer {
+    width: 100%;
+    background: radial-gradient(circle, rgba(26, 41, 59, 1) 50%, rgba(23, 26, 33, 1) 100%);
+    min-height: 90vh;
+}
+
+.searchColumn {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(59, 99, 144, 1) 50%, rgba(16, 34, 111, 1) 100%);
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigation ul a:hover {
+    background: linear-gradient(90deg, rgba(65, 115, 170, 1) 50%, rgba(16, 34, 111, 0) 100%);
+}
+
+.searchBar input {
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    background: #316282;
+}
+
+.searchBar input:focus {
+    outline: none;
+}
+
+.searchBar button {
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 5px;
+    background: #5398c2;
+}
+
+.searchBar button:hover {
+    background: #65b6e6;
+}
+
+.searchResults {
+    padding: 50px 0;
+}
+
+.searchItem {
+    display: flex;
+    align-items: center;
+    background: #16202d;
+}
+
+.searchItem img {
+    height: 100px;
+    width: 175px;
+}
+
+.searchItemInfo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 50px;
+    width: 100%;
+}
+
+.searchItemInfo p{
+    text-align: left;
+}
+
+.searchItem:hover {
+    background: #101822;
+}

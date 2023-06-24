@@ -6,6 +6,7 @@ import SupportPage from "./components/supportPage";
 import ProfilePage from "./components/profilePage";
 import LoginPage from "./components/loginPage";
 import RegisterPage from "./components/registerPage";
+import SearchPage from "./components/searchPage";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/about" element={<AboutPage/>}/>
                 <Route path="/support" element={<SupportPage/>}/>
                 <Route path="/profile" element={<ProfilePage/>}/>
+                <Route path="/search" element={<SearchPage/>}/>
             </Routes>
         </BrowserRouter>
     );

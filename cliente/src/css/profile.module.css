@@ -1,0 +1,35 @@
+.profileContainer {
+    background: #bcc2d0;
+    min-height: 90vh;
+}
+
+.profileColumns {
+    background: #454e63;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.profileHeader {
+    display: flex;
+    padding: 20px;
+}
+
+.profileHeader img {
+    width: 150px;
+}
+
+.profileHeader div {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.profileHeader div h2 {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.profileHeader div p {
+    color: white;
+}
