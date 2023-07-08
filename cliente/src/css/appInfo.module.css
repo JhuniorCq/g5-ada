@@ -1,0 +1,100 @@
+.appContainer {
+    min-height: 90vh;
+    background: #1b2838 no-repeat;
+    background-size: cover;
+}
+
+.appColumn {
+    margin: auto;
+    width: 50%;
+}
+
+.appHeader {
+    padding: 50px 0;
+    color: white;
+}
+
+.appHeaderInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.appHeaderIMG {
+    width: 60%;
+}
+
+.appHeaderIMG img {
+    width: 100%;
+}
+
+.appHeaderText {
+    width: 35%;
+}
+
+.appHeaderText img {
+    width: 100%;
+}
+
+.appHeaderText p {
+    padding: 25px 0;
+    text-align: justify;
+}
+
+.buySection {
+    background: #505f6d;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buySection button {
+    background: #73ae21;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.buySection button:hover {
+    background: #8cd328;
+    cursor: pointer;
+}
+
+.buySection div {
+    display: flex;
+    align-items: center;
+}
+
+.buySection div p {
+    background: #344654;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.aboutGame {
+    color: white;
+    padding: 25px 0;
+    text-align: justify;
+}
+
+.aboutGame h2{
+    padding: 20px 0;
+}
+
+.wishList{
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #274156;
+    color: #67c1f5;
+    width: 100%;
+}
+
+.wishList:hover{
+    background: #67c1f5;
+    color: white;
+}

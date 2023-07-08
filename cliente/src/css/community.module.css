@@ -1,0 +1,86 @@
+.communityContainer {
+    background: #1b2838;
+    min-height: 90vh;
+}
+
+.communityColumn {
+    width: 50%;
+    margin: auto;
+}
+
+.navSection {
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+}
+
+.navSection h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #56bcf3;
+}
+
+.navSection h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.navSection input {
+    width: 100%;
+    background: #0d151d;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.resultSection {
+
+}
+
+.resultSection p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background: #0d151d;
+}
+
+.resultItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0d151d;
+    padding: 10px;
+    color: white;
+}
+
+.resultItem div {
+    display: flex;
+    align-items: center;
+}
+
+.resultItem div h2 {
+    margin-left: 20px;
+}
+
+.resultItem img {
+    width: 128px;
+    height: 128px;
+}
+
+.seeProfile {
+    background: #223a4c;
+    color: #56bcf3;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.seeProfile:hover {
+    background: #66bff2;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

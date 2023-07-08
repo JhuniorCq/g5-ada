@@ -1,0 +1,76 @@
+.loginContainer {
+    background-image: radial-gradient(circle, rgba(23, 26, 33, .75) 50%, rgba(23, 26, 33, 1) 90%),
+    url('../img/loginBack.png');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer h1 {
+    color: white;
+    margin-bottom: 25px;
+    width: 25%;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 25%;
+    background: #171a21;
+    border-radius: 2px;
+}
+
+.loginForm label {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.loginForm input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    background: #32353c;
+}
+
+.loginForm button {
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin: 50px auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 270px;
+}
+
+.loginForm a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.errorMessage {
+    color: white;
+    border: 1px solid #dc3545;
+    background: #df4957;
+    padding: 10px;
+    margin-top: 20px;
+}

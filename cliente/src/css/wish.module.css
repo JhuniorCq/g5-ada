@@ -1,0 +1,105 @@
+.wishContainer {
+    background: #202326;
+    min-height: 90vh;
+    padding-bottom: 25px;
+}
+
+.wishColumn {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.wishHeader {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 25px 0;
+}
+
+.wishHeader img {
+    width: 75px;
+    height: 75px;
+    margin-right: 25px;
+}
+
+.wishHeader h1 {
+    font-weight: lighter;
+}
+
+.wishNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wishNavigation input {
+    background: #1d1f22;
+    font-size: 16px;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.wishNavigation select {
+    font-size: 16px;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+.wishNavigation option {
+    background: #7d8799;
+    padding: 5px;
+}
+
+.wishItem {
+    background: #3d4c5d;
+    padding: 20px;
+    margin-top:  15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.wishItem img {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.itemButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.itemButtons a {
+    background: #313d4a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.itemButtons a:hover{
+    color: #65b6e6;
+}
+
+.itemButtons button{
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wishItemInfo{
+    display: flex;
+    color: white;
+}
+
+.wishItemInfo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,114 @@
+.libraryContainer {
+    background: #202326;
+    min-height: 90vh;
+    padding-bottom: 50px;
+}
+
+.libraryColumn {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.libraryHeader {
+    color: white;
+    padding: 25px 0;
+}
+
+.libraryHeader div {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.libraryHeader div input {
+    background: #1d1f22;
+    font-size: 16px;
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.libraryHeader div select {
+    font-size: 16px;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+.libraryHeader div option {
+    background: #7d8799;
+    padding: 5px;
+}
+
+.libraryItem {
+    background: #3d4c5d;
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.libraryItem img {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.libraryItemInfo {
+    display: flex;
+    color: white;
+}
+
+.libraryItemInfo div {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.downloadSection {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.downloadSection button {
+    font-size: 20px;
+    background: #65b6e6;
+    color: white;
+    height: 30px;
+    width: 30px;
+
+}
+
+.downloadContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.downloadInfo {
+    display: flex;
+    padding: 0 !important;
+}
+
+.progressBarContainer {
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+.progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+}
+
+.progressBarFill {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.5s ease-in-out;
+}
+
